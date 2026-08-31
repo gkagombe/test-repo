@@ -33,8 +33,7 @@ class DatabaseSettings(BaseSettings):
         )
 
  # this is my change
- #this is my other chan
-
+ #this is my other change plus another
 class GitHubAppSettings(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="GITHUB_APP_")
 
