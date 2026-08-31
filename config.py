@@ -32,8 +32,7 @@ class DatabaseSettings(BaseSettings):
             f"@{self.host}:{self.port}/{self.name}"
         )
 
- # this is my change
- #this is my other change plus another
+ # this is my chang
 class GitHubAppSettings(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="GITHUB_APP_")
 
